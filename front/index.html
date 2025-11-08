@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MedSafe AI</title>
+  <link rel="stylesheet" href="static/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="app">
+    <header class="header">
+      <img src="static/logo.png" alt="MedSafe AI Logo" class="logo" />
+      <div class="title-block">
+        <h1>MedSafe AI</h1>
+        <p class="subtitle">Your intelligent assistant for safe medication use</p>
+      </div>
+    </header>
+
+    <section class="search-section">
+      <input type="text" id="drugInput" placeholder="Enter drug name..." />
+      <button onclick="checkDrug()">Check</button>
+    </section>
+
+    <section id="response">
+      <div class="response-card contraindications">
+        <h3>Contraindications</h3>
+        <ul>
+        
+        </ul>
+      </div>
+      <div class="response-card usage">
+        <h3>How to use / Dosage guidelines</h3>
+        <ul>
+         
+        </ul>
+      </div>
+      <div class="response-card side-effects">
+        <h3>Possible side effects</h3>
+        <ul>
+         
+        </ul>
+      </div>
+      <div class="response-card interactions">
+        <h3>Should not be combined with</h3>
+        <ul>
+          
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 MedSafe AI — All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script src="static/script.js"></script>
+</body>
+</html>

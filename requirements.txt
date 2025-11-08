@@ -1,0 +1,14 @@
+requirements_content = """
+fastapi==0.95.0
+uvicorn==0.23.0
+pydantic==1.11.1
+requests==2.28.1
+PyMuPDF==1.22.3
+"""
+
+# Saving the content to a file
+file_path = '/mnt/data/requirements.txt'
+with open(file_path, 'w') as f:
+    f.write(requirements_content)
+
+file_path
